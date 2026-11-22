@@ -1,0 +1,35 @@
+THIRD-PARTY SOFTWARE IN WIRECAT
+
+Wirecat includes the components below. Each is licensed under its own terms, which apply instead of the Wirecat
+EULA for that component.
+
+------------------------------------------------------------------------------------------------------------------
+Qt 6.5 (Qt Core, Qt Gui, Qt Network, Qt Sql, Qt WebSockets, Qt Widgets, Qt Svg, Qt Pdf and Qt plugins)
+Copyright (C) The Qt Company Ltd. and other contributors.
+https://www.qt.io
+
+Licensed under the GNU Lesser General Public License version 3 (LGPLv3); see licenses/LGPL-3.0-only.txt
+and licenses/GPL-3.0-only.txt (the LGPLv3 builds on the GPLv3 text).
+
+Wirecat uses Qt as unmodified shared libraries (Qt6*.dll on Windows, lib/libQt6*.so* on Linux). You may replace
+them with your own build of the same Qt version: put your libraries in place of the shipped ones.
+
+The complete source code of this Qt version is available from The Qt Company at
+    https://download.qt.io/archive/qt/6.5/
+and, on request, from the Wirecat author for at least three years after the release of this Wirecat version, for
+no more than the cost of providing it.
+
+------------------------------------------------------------------------------------------------------------------
+ICU (Linux builds only: libicu*.so)
+Copyright (C) Unicode, Inc. and others.
+Licensed under the Unicode License (https://www.unicode.org/copyright.html#License).
+
+------------------------------------------------------------------------------------------------------------------
+Microsoft Visual C++ Runtime (Windows builds only: msvcp140*.dll, vcruntime140*.dll, concrt140.dll, vccorlib140.dll)
+Copyright (C) Microsoft Corporation.
+Redistributed under the Microsoft Visual Studio license terms for distributable code.
+
+------------------------------------------------------------------------------------------------------------------
+TweetNaCl (Ed25519 arithmetic used to check license keys)
+By Daniel J. Bernstein, Wesley Janssen, Tanja Lange, Peter Schwabe, Matthew Dempsky and Sjaak Smetsers.
+Public domain. https://tweetnacl.cr.yp.to

@@ -1,0 +1,19 @@
+name: Bug report
+description: Something does not work as expected.
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Wirecat version and OS
+      description: Help > About shows the version.
+      placeholder: 0.1.0, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Steps to reproduce, what you expected and what you got. Remove tokens and passwords from anything you paste.
+    validations:
+      required: true

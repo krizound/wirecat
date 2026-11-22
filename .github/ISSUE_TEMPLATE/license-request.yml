@@ -1,0 +1,35 @@
+name: License request
+description: Buy a Wirecat license for work or commercial use.
+title: "License request: "
+labels: ["license"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for supporting Wirecat! Personal use stays free; this is for work and commercial use.
+        **Do not post anything private here:** this issue is public. The license key is sent to you privately.
+  - type: input
+    id: licensee
+    attributes:
+      label: Licensee
+      description: The person or company the license is for (shown in Help > License).
+      placeholder: ACME Ltd.
+    validations:
+      required: true
+  - type: input
+    id: seats
+    attributes:
+      label: Number of users
+      placeholder: "1"
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: How to reach you privately
+      description: Where to send the key and the payment details, e.g. an e-mail or Telegram handle. Leave it empty and we will continue in this issue first.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Invoice requirements, questions about volume licenses, etc.

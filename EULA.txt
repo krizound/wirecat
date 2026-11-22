@@ -1,0 +1,61 @@
+WIRECAT END USER LICENSE AGREEMENT
+
+Copyright (c) 2026 the Wirecat author. All rights reserved.
+
+By installing or using Wirecat ("the Software") you agree to these terms.
+
+1. PERSONAL USE IS FREE
+   You may use the Software free of charge, without time limit and with all features, for:
+   - personal projects and hobby use;
+   - learning, teaching and academic research;
+   - developing open-source software that is published under an OSI-approved license.
+
+2. COMMERCIAL USE NEEDS A LICENSE
+   Any other use requires a paid license. In particular, you need a license if you use the Software:
+   - as an employee or contractor, for your work;
+   - in or for a company, government body or other organisation;
+   - to develop, test or operate a commercial product or service.
+   An evaluation period of 30 days of commercial use is allowed before buying.
+
+3. THE COMMERCIAL LICENSE
+   - One license is for one named user ("seat"). That user may use the Software on any number of their own
+     computers. A license for N seats covers N users.
+   - A license is perpetual for the versions of the Software released while it is valid, and includes the
+     updates the author releases in that time.
+   - License keys are personal to the licensee and must not be published or shared outside the licensee's
+     organisation.
+
+4. REDISTRIBUTION
+   You may pass on unmodified copies of the Software, as distributed by the author, free of charge, together with
+   this agreement. You may not sell the Software, distribute license keys or modified copies, or remove or alter
+   the license check or the notices in it.
+
+5. RESTRICTIONS
+   You may not decompile, disassemble or reverse engineer the Software, except where the law allows it and except
+   as permitted by the licenses of the third-party components (see 6).
+
+6. THIRD-PARTY COMPONENTS
+   The Software uses the Qt libraries, licensed under the GNU Lesser General Public License version 3 (LGPLv3),
+   and other components listed in THIRD_PARTY_NOTICES.txt. Those components are licensed to you under their own
+   licenses, not under this agreement. Nothing in this agreement limits your rights under them. In particular,
+   you may replace the Qt libraries shipped with the Software with your own compatible build, and you may
+   reverse engineer the Software as far as needed to debug such a modification.
+
+7. YOUR DATA
+   The Software works locally. It does not require an account, does not send your requests, collections or
+   other data to the author, and does not contact a server to check the license.
+
+8. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+   TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+9. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE. IF LIABILITY CANNOT BE EXCLUDED,
+   IT IS LIMITED TO THE AMOUNT YOU PAID FOR THE LICENSE.
+
+10. TERMINATION
+   This agreement ends automatically if you break it. You must then stop using the Software for commercial
+   purposes. Sections 6, 8 and 9 survive termination.
+
+Questions about licensing, prices or volume licenses: contact the author through the project page.
